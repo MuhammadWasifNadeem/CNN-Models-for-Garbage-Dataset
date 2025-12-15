@@ -19,8 +19,8 @@ st.markdown("Upload an image of waste to classify it into: **cardboard, glass, m
 class_names = ['cardboard', 'glass', 'metal', 'paper', 'plastic', 'trash']
 
 # Expected model filenames (must match exactly what's in your repo)
-DEEPER_MODEL_PATH = "best_model2_deeper.h5"
-SIMPLER_MODEL_PATH = "best_model1_simpler.h5"
+DEEPER_MODEL_PATH = "my_trash_classifier_model1.h5"
+SIMPLER_MODEL_PATH = "my_trash_classifier_model2.h5"
 
 # Model selection
 model_choice = st.sidebar.selectbox(
@@ -106,3 +106,4 @@ if uploaded_file is not None:
 # Footer
 st.markdown("---")
 st.caption("Custom CNNs trained from scratch on waste classification dataset | Deployed with Streamlit")
+
