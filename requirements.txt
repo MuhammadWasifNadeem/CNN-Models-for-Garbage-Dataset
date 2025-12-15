@@ -1,7 +1,8 @@
-streamlit==1.32.0
-tensorflow==2.20.0
+streamlit
+tensorflow
 numpy
 pillow
 opencv-python
 scikit-learn
 matplotlib
+
